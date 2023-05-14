@@ -46,33 +46,35 @@ namespace Vending_Machine
                 {
                     case "Nuts":
                         price = 2;
+                        product = "nuts";
                         break;
                     case "Water":
                         price = 0.7;
+                        product = "water";
                         break;
                     case "Crisps":
                         price = 1.5;
+                        product = "crisps";
                         break;
                     case "Soda":
                         price = 0.8;
+                        product = "soda";
                         break;
                     case "Coke":
                         price = 1;
+                        product = "coke";
                         break;
                     default:
                         Console.WriteLine("Invalid product");
                         invalid = true;
                         break;
                 }
-
-                string newName = product;
-                newName[0] = Char.ToLower(newName[0]).ToString();
                 
                 if (!invalid)
                 {
                     if (moneyCount >= price)
                     {
-                        Console.WriteLine($"Purchased {newName}");
+                        Console.WriteLine($"Purchased {product}");
                         moneyCount -= price;
                     } else
                     {
