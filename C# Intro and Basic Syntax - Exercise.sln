@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Division", "Division\Divisi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vacation", "Vacation\Vacation.csproj", "{D3A1C6C8-9D84-4054-A39D-94EB8BA575A1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintAndSum", "PrintAndSum\PrintAndSum.csproj", "{5D790D27-A6A0-4911-BDAB-BAB8152D9D72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Login", "Login\Login.csproj", "{DB0E90F5-818C-4463-86B9-50DB6B02A413}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{D3A1C6C8-9D84-4054-A39D-94EB8BA575A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D3A1C6C8-9D84-4054-A39D-94EB8BA575A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D3A1C6C8-9D84-4054-A39D-94EB8BA575A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D790D27-A6A0-4911-BDAB-BAB8152D9D72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D790D27-A6A0-4911-BDAB-BAB8152D9D72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D790D27-A6A0-4911-BDAB-BAB8152D9D72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D790D27-A6A0-4911-BDAB-BAB8152D9D72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB0E90F5-818C-4463-86B9-50DB6B02A413}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB0E90F5-818C-4463-86B9-50DB6B02A413}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB0E90F5-818C-4463-86B9-50DB6B02A413}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB0E90F5-818C-4463-86B9-50DB6B02A413}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
