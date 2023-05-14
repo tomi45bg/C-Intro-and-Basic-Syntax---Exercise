@@ -16,16 +16,16 @@ namespace Division
                 divisibleNumber = 2;
             }
 
-            if (number % 7 == 0)
-            {
-                isDivisible = true;
-                divisibleNumber = 7;
-            }
-
             if (number % 3 == 0)
             {
                 isDivisible = true;
                 divisibleNumber = 3;
+            }
+
+            if (number % 7 == 0)
+            {
+                isDivisible = true;
+                divisibleNumber = 7;
             }
 
             if (number % 2 == 0 && number % 3 == 0 && number % 6 == 0)
